@@ -39,7 +39,27 @@ This is a web-based user management platform built using Django. It allows users
 - django-taggit (for tags)
 - Pillow (for image uploads)
 
-# Example Use Cases
+### Example Use Cases
 User A logs in and creates "Candles" and "Soap" categories.
 User A uploads 5 products under "Candles", each tagged with keywords like trending, bestsellers, price drop.
 Admin logs in to view all User products, filters by category or tags.
+
+### Project Setup
+Create Virtual Environment & Install Dependencies
+python -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+
+Apply Migrations
+python manage.py makemigrations
+python manage.py migrate
+
+Create Superuser
+python manage.py createsuperuser
+
+Run Development Server
+python manage.py runserver
+
+Access the App
+Frontend: http://localhost:8000/
+Admin Panel: http://localhost:8000/admin/
