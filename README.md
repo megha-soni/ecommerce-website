@@ -1,4 +1,4 @@
-# ecommerce-website
+### ecommerce-website
 This is a web-based user management platform built using Django. It allows users to register, log in, and manage their own Categories, Products, and Tags. The platform supports image uploads, tag-based labeling, and an admin panel with search and filtering capabilities.
 
 # Features
